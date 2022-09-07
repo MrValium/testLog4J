@@ -29,10 +29,13 @@ public class LoginServlet extends HttpServlet {
         else{
 
             // vulnerable code
+            /* LO COMMENTO PER ELIMINARE LA VULNERABILITA'
             Logger logger = LogManager.getLogger(com.example.log4shell.log4j.class);
             logger.error(userName);
 
             out.println("<code> the password you entered was invalid, <u> we will log your information </u> </code>");
+            */
+            System.out.print("AAAAAAAA");
         }
     }
 
